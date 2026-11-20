@@ -1,0 +1,18 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+*.env
+.venv/
+venv/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Auto Clicker settings
+.autoclicker_settings.json
+
+# Build / dist
+dist/
+build/
