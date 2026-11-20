@@ -13,6 +13,7 @@ Thumbs.db
 # Auto Clicker settings
 .autoclicker_settings.json
 
-# Build / dist
-dist/
+# PyInstaller build artifacts
 build/
+dist/
+*.exe

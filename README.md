@@ -29,9 +29,20 @@ cd auto-clicker
 # Установка зависимостей
 pip install -r requirements.txt
 
-# Запуск
+# Запуск из исходников
 python clicker_app/main.py
 ```
+
+## Сборка в .exe (Windows)
+
+```bash
+cd clicker_app
+pyinstaller build.spec --noconfirm
+```
+
+Готовый `.exe` появится в папке `dist/` после сборки.
+
+> Собирать `.exe` нужно на Windows (PyInstaller создаёт исполняемый файл для той платформы, на которой запускается). На macOS/Linux будет собран бинарный файл для соответствующей системы.
 
 ## Структура
 
